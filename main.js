@@ -58,8 +58,6 @@ let Sudoku = function (board) {
         return true;
     }
 
-    //   Public methods
-    // -------------------------
     return {
         isValid: function () {
             return isSquare() &&
