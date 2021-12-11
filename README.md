@@ -1,1 +1,3 @@
-# Validate-Sudoku-with-size-NxN
+# Validate-Sudoku
+
+Validates complete sudoku grids of size 9
