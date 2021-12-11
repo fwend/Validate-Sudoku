@@ -13,7 +13,7 @@ export default class SudokuValidator {
             return board.every(row => row.length === board.length);
         }
 
-        function areRowsValid() {
+        function areColsValid() {
             for (let c = 0; c < board.length; c++) {
                 let mask = 0;
                 for (let r = 0; r < board.length; r++) {
@@ -28,7 +28,7 @@ export default class SudokuValidator {
             return true;
         }
 
-        function areColsValid() {
+        function areRowsValid() {
             for (let r = 0; r < board.length; r++) {
                 let mask = 0;
                 for (let c = 0; c < board.length; c++) {

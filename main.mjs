@@ -1,7 +1,7 @@
 import SudokuValidator from "./sudoku_validator.mjs";
 
 let board1 = [
-    [5,3,4,6,7,8,9,1,1],
+    [5,3,4,6,7,8,9,1,1], // double 1
     [6,7,2,1,9,5,3,4,8],
     [1,9,8,3,4,2,5,6,7],
     [8,5,9,7,6,1,4,2,3],
