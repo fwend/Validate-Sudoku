@@ -1,12 +1,10 @@
-const validSizes = [9];
-
 export default class SudokuValidator {
 
     static validate(board) {
-        const tally = Math.pow(2, board.length + 1) - 2;
+        const tally = 0b0011_1111_1110;
 
         function hasValidSize() {
-            return validSizes.includes(board.length);
+            return board.length === 9
         }
 
         function isSquare() {

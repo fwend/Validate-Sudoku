@@ -1,3 +1,3 @@
 # Validate-Sudoku
 
-Validates complete sudoku grids of size 9
+Validates completed sudoku grids of size 9
